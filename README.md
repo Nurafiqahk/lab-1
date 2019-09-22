@@ -33,5 +33,20 @@ int main()
 
 	return 0;
 }
+// Project4.cpp : This is my second try on Visual. Practicing on example 1 (ms 36)
 
+#include <iostream>
+using namespace std;
+#define MILE_TO_KM 1.609
+
+int main()
+{
+	double miles, km;
+
+	cout << "Enter the distance in mile:"<<endl;
+	cin >> miles;
+	km = miles * MILE_TO_KM;
+	cout << "\nThat equals " << km << " kilometers " << endl;
+	return 0;
+}
  
